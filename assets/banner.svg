@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a11" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+    </filter>
+    <filter id="pill-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 46px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        fill: #ffffff;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        fill: #94a3b8;
+        letter-spacing: 0.5px;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #e2e8f0;
+      }
+      .mesh-line {
+        stroke-dasharray: 8 12;
+        animation: dashMove 25s linear infinite;
+      }
+      @keyframes dashMove {
+        to {
+          stroke-dashoffset: -400;
+        }
+      }
+      .pulse-orb {
+        animation: pulseAnimation 6s ease-in-out infinite alternate;
+      }
+      .pulse-orb-delay {
+        animation: pulseAnimation2 8s ease-in-out infinite alternate;
+      }
+      @keyframes pulseAnimation {
+        0% { transform: scale(0.9) translate(0px, 0px); opacity: 0.35; }
+        100% { transform: scale(1.15) translate(30px, -20px); opacity: 0.65; }
+      }
+      @keyframes pulseAnimation2 {
+        0% { transform: scale(1.1) translate(0px, 0px); opacity: 0.4; }
+        100% { transform: scale(0.85) translate(-25px, 25px); opacity: 0.7; }
+      }
+      .float-pill {
+        animation: floatItem 5s ease-in-out infinite alternate;
+      }
+      .float-pill-2 {
+        animation: floatItem2 6s ease-in-out infinite alternate;
+      }
+      .float-pill-3 {
+        animation: floatItem3 5.5s ease-in-out infinite alternate;
+      }
+      @keyframes floatItem {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-7px); }
+      }
+      @keyframes floatItem2 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(8px); }
+      }
+      @keyframes floatItem3 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Background Dynamic Glowing Orbs -->
+  <g>
+    <circle class="pulse-orb" cx="220" cy="90" r="140" fill="#8b5cf6" filter="url(#glow-blur)" />
+    <circle class="pulse-orb-delay" cx="980" cy="240" r="160" fill="#06b6d4" filter="url(#glow-blur)" />
+    <circle class="pulse-orb" cx="620" cy="320" r="130" fill="#ec4899" filter="url(#glow-blur)" />
+  </g>
+
+  <!-- Ambient Dynamic Wireframe Grid / GPU Pipeline Mesh (Background) -->
+  <g stroke="#334155" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="350" y1="0" x2="350" y2="360" />
+    <line x1="550" y1="0" x2="550" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="950" y1="0" x2="950" y2="360" />
+    <line x1="1150" y1="0" x2="1150" y2="360" />
+  </g>
+
+  <!-- Animated dynamic stream lines -->
+  <path class="mesh-line" d="M-50,80 Q300,10 600,80 T1250,80" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.6" />
+  <path class="mesh-line" d="M-50,280 Q300,350 600,280 T1250,280" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.5" />
+
+  <!-- Subtitle Pill Badges (Positioned cleanly below text to ensure non-overlap) -->
+  <g class="float-pill">
+    <g transform="translate(180, 275)">
+      <rect width="130" height="34" rx="17" fill="url(#card-grad)" stroke="#8b5cf6" stroke-width="1.2" />
+      <circle cx="16" cy="17" r="5" fill="#a855f7" />
+      <text x="32" y="22" class="badge-text">⚡ Vulkan</text>
+    </g>
+  </g>
+  <g class="float-pill-2">
+    <g transform="translate(330, 275)">
+      <rect width="145" height="34" rx="17" fill="url(#card-grad)" stroke="#06b6d4" stroke-width="1.2" />
+      <circle cx="16" cy="17" r="5" fill="#06b6d4" />
+      <text x="32" y="22" class="badge-text">🎮 DirectX 12</text>
+    </g>
+  </g>
+  <g class="float-pill-3">
+    <g transform="translate(495, 275)">
+      <rect width="145" height="34" rx="17" fill="url(#card-grad)" stroke="#ec4899" stroke-width="1.2" />
+      <circle cx="16" cy="17" r="5" fill="#f43f5e" />
+      <text x="32" y="22" class="badge-text">🔍 RenderDoc</text>
+    </g>
+  </g>
+  <g class="float-pill">
+    <g transform="translate(660, 275)">
+      <rect width="150" height="34" rx="17" fill="url(#card-grad)" stroke="#10b981" stroke-width="1.2" />
+      <circle cx="16" cy="17" r="5" fill="#10b981" />
+      <text x="32" y="22" class="badge-text">⏱️ Tracy Profiler</text>
+    </g>
+  </g>
+  <g class="float-pill-2">
+    <g transform="translate(830, 275)">
+      <rect width="170" height="34" rx="17" fill="url(#card-grad)" stroke="#f59e0b" stroke-width="1.2" />
+      <circle cx="16" cy="17" r="5" fill="#f59e0b" />
+      <text x="32" y="22" class="badge-text">🧠 Memory Allocators</text>
+    </g>
+  </g>
+
+  <!-- Foreground Title and Subtitle (Unobscured and Crystal Clear) -->
+  <g id="foreground-content">
+    <!-- Top Header Category Indicator -->
+    <text x="600" y="75" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#38bdf8">
+      CURATED ECOSYSTEM FOR REAL-TIME RENDERING
+    </text>
+
+    <!-- Gradient Bar Accent -->
+    <rect x="475" y="90" width="250" height="3" rx="1.5" fill="url(#primary-glow)" />
+
+    <!-- Main Title -->
+    <text x="600" y="160" text-anchor="middle" class="title-text">
+      Awesome Graphics APIs &amp; SDKs
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="215" text-anchor="middle" class="subtitle-text">
+      GPU Memory Allocation • Frame Debuggers • Nanosecond Real-Time Profilers
+    </text>
+  </g>
+</svg>
