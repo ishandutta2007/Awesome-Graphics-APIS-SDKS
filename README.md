@@ -30,47 +30,25 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global graphics software and GPU developer tools ecosystem operates adjacent to a GPU hardware and compute market valued at over $130 billion (projected to reach $300B–$600B+ driven by 3D rendering and AI workloads), with the dedicated computer graphics and profiling software segment representing an estimated $10B–$15B market. The sector is highly concentrated around dominant hardware and operating system giants (NVIDIA, Microsoft, AMD, and Intel) who operate a near winner-take-all model by providing proprietary, hardware-locked profiling suites for free to entrench adoption of their respective GPU architectures and rendering APIs, alongside niche commercial profiling vendors like Superluminal.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[NVIDIA Nsight Graphics](https://developer.nvidia.com/nsight-graphics)**  
-
-  NVIDIA's professional graphics debugging and profiling suite. Provides frame debugging, GPU trace analysis, and shader profiling with deep access to NVIDIA hardware counters. **Vendor-specific**: best results on GeForce/Quadro hardware, though debugging works on other GPUs with reduced features . Free.
-
-
-
-- **[PIX on Windows](https://devblogs.microsoft.com/pix/)**  
-
-  Microsoft's performance tuning and debugging tool for DirectX 12. **The best choice for D3D12** with deep Windows integration, GPU capture, memory heap analysis, and command list inspection. **DirectX only**—not useful for Vulkan workloads beyond basic counters . Free.
-
-
-
-- **[AMD Radeon GPU Profiler (RGP)](https://gpuopen.com/rgp/)**  
-
-  AMD's performance profiler for RDNA architecture GPUs. Visualizes wave occupancy, instruction-level timing, and hardware counters. **Vendor-specific** to AMD hardware. Free.
-
-
-
-- **[Intel Graphics Performance Analyzers (GPA)](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)**  
-
-  Intel's suite for profiling and analyzing graphics applications. Can run on non-Intel GPUs with reduced feature sets . Free.
-
-
-
-- **[Superluminal](https://superluminal.eu/)**  
-
-  Commercial CPU profiler for Windows with exceptional context-switch and thread-migration analysis. **Sampling-based**—no code changes required, sees all functions including third-party libraries. Windows-only. Commercial license with free trial .
+| Company | Platform / Tool | Valuation / Revenue | Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **NVIDIA** | [NVIDIA Nsight Graphics](https://developer.nvidia.com/nsight-graphics) | ~$5.2T Market Cap / ~$130B+ Rev | Free ($0) | Free forever (Full access to all features; restricted to NVIDIA hardware metrics and standard EULA terms) | NVIDIA's professional graphics debugging and profiling suite. Provides frame debugging, GPU trace analysis, and shader profiling with deep access to NVIDIA hardware counters. |
+| **Microsoft** | [PIX on Windows](https://devblogs.microsoft.com/pix/) | ~$3.9T Market Cap / ~$245B+ Rev | Free ($0) | Free forever (Full access to all features; Windows & DirectX 12 applications only) | Microsoft's performance tuning and debugging tool for DirectX 12. Direct D3D12 inspection, GPU capture, memory heap analysis, and timing captures. |
+| **AMD** | [AMD Radeon GPU Profiler (RGP)](https://gpuopen.com/rgp/) | ~$890B Market Cap / ~$25B+ Rev | Free ($0) | Free forever (Full access to all features; RDNA/AMD architecture GPUs only) | AMD's performance profiler for RDNA architecture GPUs. Visualizes wave occupancy, instruction-level timing, and hardware counters. |
+| **Intel** | [Intel Graphics Performance Analyzers (GPA)](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html) | ~$470B Market Cap / ~$54B+ Rev | Free ($0) | Free forever (Full access to all features; v2025.1 final release / community-supported) | Intel's suite for profiling and analyzing graphics applications on Intel GPUs, with reduced feature sets on third-party hardware. |
+| **Superluminal** | [Superluminal](https://superluminal.eu/) | Private (~$1M–$5M ARR est.) | €59 (Personal perpetual) / €289/seat/year (Business) | 14-day free trial (Full access to all features across Windows, Linux, Xbox, and PlayStation; no seat limit during trial) | Commercial high-performance sampling CPU profiler for Windows/consoles with exceptional context-switch and thread-migration analysis without recompilation. |
 
 
 
