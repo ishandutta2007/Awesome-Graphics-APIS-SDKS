@@ -64,51 +64,51 @@ The sector is **highly concentrated** around dominant hardware and operating sys
 
 ## 💻 Open-Source GitHub Projects
 
-The open-source graphics tooling landscape provides essential infrastructure for building custom game engines, rendering systems, and shader compilers. Below are the top open-source projects sorted descending by GitHub star count:
+The open-source graphics tooling landscape provides essential infrastructure for building custom game engines, rendering systems, and shader compilers. Below are the top open-source projects sorted descending by GitHub Stars_Count:
 
-1. **[bgfx](https://github.com/bkaradzic/bgfx)** [![GitHub stars](https://img.shields.io/github/stars/bkaradzic/bgfx?style=social&color=white)](https://github.com/bkaradzic/bgfx/stargazers)  
+1. **[bgfx](https://github.com/bkaradzic/bgfx)** [![GitHub_Stars](https://img.shields.io/github/stars/bkaradzic/bgfx?style=social&color=white)](https://github.com/bkaradzic/bgfx/stargazers)  
    Cross-platform, graphics API agnostic rendering library supporting Vulkan, Direct3D 11/12, Metal, OpenGL, and WebGPU. Designed for portability and game engine backends. **License:** BSD-2-Clause.
 
-2. **[Tracy Profiler](https://github.com/wolfpld/tracy)** [![GitHub stars](https://img.shields.io/github/stars/wolfpld/tracy?style=social&color=white)](https://github.com/wolfpld/tracy/stargazers)  
+2. **[Tracy Profiler](https://github.com/wolfpld/tracy)** [![GitHub_Stars](https://img.shields.io/github/stars/wolfpld/tracy?style=social&color=white)](https://github.com/wolfpld/tracy/stargazers)  
    Real-time, nanosecond-resolution frame profiler for CPU (C/C++, Rust, Zig) and GPU (Vulkan, D3D12, OpenGL, OpenCL). Streams live telemetry over sockets with microsecond lock contention, memory allocation tracking, and frame mark analysis. **License:** MIT.
 
-3. **[RenderDoc](https://github.com/baldurk/renderdoc)** [![GitHub stars](https://img.shields.io/github/stars/baldurk/renderdoc?style=social&color=white)](https://github.com/baldurk/renderdoc/stargazers)  
+3. **[RenderDoc](https://github.com/baldurk/renderdoc)** [![GitHub_Stars](https://img.shields.io/github/stars/baldurk/renderdoc?style=social&color=white)](https://github.com/baldurk/renderdoc/stargazers)  
    The cross-platform standard for frame debugging across Vulkan, DirectX 11/12, OpenGL, and OpenGL ES. Allows deep pixel inspection, shader debugging, pipeline state analysis, and draw call event isolation on any vendor hardware. **License:** MIT.
 
-4. **[sokol](https://github.com/floooh/sokol)** [![GitHub stars](https://img.shields.io/github/stars/floooh/sokol?style=social&color=white)](https://github.com/floooh/sokol/stargazers)  
+4. **[sokol](https://github.com/floooh/sokol)** [![GitHub_Stars](https://img.shields.io/github/stars/floooh/sokol?style=social&color=white)](https://github.com/floooh/sokol/stargazers)  
    Minimalist, header-only C cross-platform graphics wrapper (`sokol_gfx.h`) and application runtime for Vulkan, Metal, D3D11, and WebGL/WebGPU. Ideal for cross-platform tools and lean retro/modern engines. **License:** zlib.
 
-5. **[DirectX-Graphics-Samples](https://github.com/microsoft/DirectX-Graphics-Samples)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/DirectX-Graphics-Samples?style=social&color=white)](https://github.com/microsoft/DirectX-Graphics-Samples/stargazers)  
+5. **[DirectX-Graphics-Samples](https://github.com/microsoft/DirectX-Graphics-Samples)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/DirectX-Graphics-Samples?style=social&color=white)](https://github.com/microsoft/DirectX-Graphics-Samples/stargazers)  
    Official Microsoft Direct3D 12 and DirectX Raytracing (DXR) reference samples. Demonstrates state-of-the-art D3D12 architectures, work graphs, execute indirect, variable rate shading, and mesh shaders. **License:** MIT.
 
-6. **[Vulkan-Samples](https://github.com/KhronosGroup/Vulkan-Samples)** [![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/Vulkan-Samples?style=social&color=white)](https://github.com/KhronosGroup/Vulkan-Samples/stargazers)  
+6. **[Vulkan-Samples](https://github.com/KhronosGroup/Vulkan-Samples)** [![GitHub_Stars](https://img.shields.io/github/stars/KhronosGroup/Vulkan-Samples?style=social&color=white)](https://github.com/KhronosGroup/Vulkan-Samples/stargazers)  
    The official Khronos Group curated collection of Vulkan best practice samples. Covers pipeline barriers, descriptor indexing, render passes, ray tracing pipelines, and memory allocation strategies. **License:** Apache-2.0.
 
-7. **[Orbit](https://github.com/google/orbit)** [![GitHub stars](https://img.shields.io/github/stars/google/orbit?style=social&color=white)](https://github.com/google/orbit/stargazers)  
+7. **[Orbit](https://github.com/google/orbit)** [![GitHub_Stars](https://img.shields.io/github/stars/google/orbit?style=social&color=white)](https://github.com/google/orbit/stargazers)  
    Standalone application profiler by Google for Windows and Linux. Supports dynamic uprobe/kprobe style instrumentation and sampling of production binaries without recompiling target binaries. **License:** BSD-2-Clause.
 
-8. **[DirectXShaderCompiler (DXC)](https://github.com/microsoft/DirectXShaderCompiler)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/DirectXShaderCompiler?style=social&color=white)](https://github.com/microsoft/DirectXShaderCompiler/stargazers)  
+8. **[DirectXShaderCompiler (DXC)](https://github.com/microsoft/DirectXShaderCompiler)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/DirectXShaderCompiler?style=social&color=white)](https://github.com/microsoft/DirectXShaderCompiler/stargazers)  
    LLVM/Clang-based compiler for modern High-Level Shader Language (HLSL) generating DXIL (DirectX Intermediate Language) and SPIR-V for Vulkan cross-compilation. **License:** Apache-2.0 with LLVM Exception.
 
-9. **[glslang](https://github.com/KhronosGroup/glslang)** [![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/glslang?style=social&color=white)](https://github.com/KhronosGroup/glslang/stargazers)  
+9. **[glslang](https://github.com/KhronosGroup/glslang)** [![GitHub_Stars](https://img.shields.io/github/stars/KhronosGroup/glslang?style=social&color=white)](https://github.com/KhronosGroup/glslang/stargazers)  
    Khronos reference front-end compiler and validator for GLSL, ESSL, and HLSL compiling into SPIR-V. The standard shader compilation step inside Vulkan toolchains and validation layers. **License:** BSD-3-Clause / Apache-2.0.
 
-10. **[Vulkan Memory Allocator (VMA)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator)** [![GitHub stars](https://img.shields.io/github/stars/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator?style=social&color=white)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/stargazers)  
+10. **[Vulkan Memory Allocator (VMA)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator)** [![GitHub_Stars](https://img.shields.io/github/stars/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator?style=social&color=white)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/stargazers)  
     The de facto standard memory allocation library for Vulkan by AMD GPUOpen. Solves Vulkan's rigid allocation count limits by sub-allocating large memory blocks, handling defragmentation, alignment requirements, and custom pools. **License:** MIT.
 
-11. **[Vulkan-Guide](https://github.com/KhronosGroup/Vulkan-Guide)** [![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/Vulkan-Guide?style=social&color=white)](https://github.com/KhronosGroup/Vulkan-Guide/stargazers)  
+11. **[Vulkan-Guide](https://github.com/KhronosGroup/Vulkan-Guide)** [![GitHub_Stars](https://img.shields.io/github/stars/KhronosGroup/Vulkan-Guide?style=social&color=white)](https://github.com/KhronosGroup/Vulkan-Guide/stargazers)  
     Khronos Group's official comprehensive architectural guide for navigating the Vulkan ecosystem, covering best practices, synchronization models, and pipeline optimizations. **License:** CC-BY-4.0.
 
-12. **[SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools)** [![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/SPIRV-Tools?style=social&color=white)](https://github.com/KhronosGroup/SPIRV-Tools/stargazers)  
+12. **[SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools)** [![GitHub_Stars](https://img.shields.io/github/stars/KhronosGroup/SPIRV-Tools?style=social&color=white)](https://github.com/KhronosGroup/SPIRV-Tools/stargazers)  
     Official API and command-line tools for processing, optimizing, validating, assembling, and disassembling SPIR-V intermediate language modules. **License:** Apache-2.0.
 
-13. **[D3D12 Memory Allocator (D3D12MA)](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator)** [![GitHub stars](https://img.shields.io/github/stars/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator?style=social&color=white)](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator/stargazers)  
+13. **[D3D12 Memory Allocator (D3D12MA)](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator)** [![GitHub_Stars](https://img.shields.io/github/stars/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator?style=social&color=white)](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator/stargazers)  
     The Direct3D 12 equivalent of VMA from AMD GPUOpen. Provides `Allocator::CreateResource` as a direct drop-in replacement for `CreateCommittedResource`, automating heap tier management and custom memory pools. **License:** MIT.
 
-14. **[DirectX-Headers](https://github.com/microsoft/DirectX-Headers)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/DirectX-Headers?style=social&color=white)](https://github.com/microsoft/DirectX-Headers/stargazers)  
+14. **[DirectX-Headers](https://github.com/microsoft/DirectX-Headers)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/DirectX-Headers?style=social&color=white)](https://github.com/microsoft/DirectX-Headers/stargazers)  
     Official Microsoft repository providing DirectX 12 headers, Agility SDK runtime interfaces, and WSL (Windows Subsystem for Linux) D3D12 user-mode drivers. **License:** MIT.
 
-15. **[Radeon GPU Profiler (RGP CLI/Tools)](https://github.com/GPUOpen-Tools/radeon_gpu_profiler)** [![GitHub stars](https://img.shields.io/github/stars/GPUOpen-Tools/radeon_gpu_profiler?style=social&color=white)](https://github.com/GPUOpen-Tools/radeon_gpu_profiler/stargazers)  
+15. **[Radeon GPU Profiler (RGP CLI/Tools)](https://github.com/GPUOpen-Tools/radeon_gpu_profiler)** [![GitHub_Stars](https://img.shields.io/github/stars/GPUOpen-Tools/radeon_gpu_profiler?style=social&color=white)](https://github.com/GPUOpen-Tools/radeon_gpu_profiler/stargazers)  
     Open-source companion utilities and parser tools for analyzing Radeon Developer Tool Suite execution profiles on AMD hardware. **License:** MIT.
 
 ---
